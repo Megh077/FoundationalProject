@@ -39,7 +39,7 @@ section{
     padding: 1rem;
 }
 .btn{
-    padding:2rem 0.5rem;
+    padding:2rem 3rem;
     background: #333;
     color: #fff;
     cursor:pointer;
@@ -115,6 +115,7 @@ header .navbar ul li a:hover{
     background: var(--yellow);
 }
 #menu{
+    border-radius: 12px;
     position:fixed;
     top:2rem; right:2rem;
     background: #333;
@@ -130,7 +131,7 @@ header .navbar ul li a:hover{
     display:flex;
     align-items:center;
     flex-flow:column;
-    padding: 0 15rem;
+    padding: 6rem 15rem;
 }
 .home h3{
     font-size: 2.5rem;
@@ -189,10 +190,13 @@ header .navbar ul li a:hover{
     text-align: center;
     padding: 2rem;
     margin: 2rem;
+    box-shadow: rgb(97 88 40 / 20%) 0px 7px 29px 0px;
+    border-radius: 20px;
 }
 .about .row .counter .box span{
     font-size: 4rem;
     color: var(--yellow);
+    font-size: 3rem;
 }
 .about .row .counter .box h3{
     font-size: 2rem;
@@ -217,7 +221,7 @@ header .navbar ul li a:hover{
 
 }
 .education .box-container .box span{
-    font-size: 1.3rem;
+    font-size: 20px;
     background: #222;
     color:#fff;
     border-radius: 4rem;;
@@ -228,6 +232,7 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     padding-top:1.5rem;
+    margin-top: 12px;
 }
 .education .box-container .box p{
     font-size: 2rem;
@@ -251,11 +256,17 @@ header .navbar ul li a:hover{
     
     font-size: 2.5rem;
     color:#fff;
+    padding: 10px;
 }
 .skills .skills-content .left .text{
     font-size:40px;
     font-weight:600;
     margin-bottom: 10px;
+    padding: 10px;
+}
+
+.skills .skills-content .left p{
+    padding: 10px;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -382,7 +393,7 @@ header .navbar ul li a:hover{
         font: size 55%;
     }
     .home{
-        padding: 1rem 4rem;
+        padding: 6remrem 4rem;
     }
 }
 @media(max-width:991px){
@@ -418,6 +429,7 @@ header .navbar ul li a:hover{
     .education .box-container .box{
         width:100%;
     }
+
     .skills .skills-content .column{
         width:100%;
         margin-bottom: 35px;
